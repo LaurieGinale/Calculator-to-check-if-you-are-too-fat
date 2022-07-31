@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur d'IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+  
+    <div class="container">
+
+        <!--Image-->
+        <img src="img/image-imc04-450x220.jpg"/>
+        
+        <!--Box including text, form, button, results-->
+        <div class="text-container">
+            <!--Title-->
+            <h1>Calculateur d'IMC</h1>
+
+            <!--Fields for user's data-->
+            <form class="users-data">
+                <!--User's size-->
+            <div class="user-height">
+                    <label for="height">Votre taille en centimètres</label>
+                    <input type="number" id="height" name="height" required maxlength="3">
+            </div>
+                <!--User's weight-->
+            <div class="user-weight">
+                    <label for="weight">Votre poids en kg</label>
+                    <input type="number" id="weight" name="weight" required maxlength="3">
+            </div>
+
+               <!--Button-->
+            <button>Calculer votre IMC</button>
+
+        </form>
+
+            <!--Results-->
+            <div class="results">
+                <p class="bmi">0</p>
+                <p class="bmi-analysis">En attente du résultat...</p>
+            </div>
+
+        </div>
+    </div>
+       
+   
+</body>
+</html>
