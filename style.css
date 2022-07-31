@@ -21,7 +21,7 @@ body {
 
 .container {
   background: white;
-  width: 500px;
+  width: 400px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ body {
 
  .text-container {
    width: 100%;
-   padding: 2rem;
+   padding: 1.5rem;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -52,25 +52,27 @@ body {
 h1 {
   color: hsl(223, 47%, 23%);
   text-align: center;
+  font-size: 1.8rem;
 }
 
 /* Form */
 
 .users-data {
-  padding: 1.75rem 0;
+  padding: 1.5rem 0;
   color: hsl(224, 23%, 55%);
   width: 100%;
+  font-size: 0.9Rem;
   text-align: center;
 }
 
 .users-data input {
   width: 85%;
-  height: 40px;
+  height: 30px;
   border-radius: 10px;
-  font-size: 18px;
-  text-align: center;
   border: 1px solid rgb(202, 214, 247);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 input:hover {
@@ -81,12 +83,12 @@ input:hover {
 
 button {
   width: 85%;
-  padding: 15px;
+  padding: 12px;
   border-radius: 10px;
   border-style : none;
   background-color:hsl(245, 75%, 52%);
   color: white;
-  font-size: 1.20em;
+  font-size: 1Rem;
   font-weight: 700;
   box-shadow: 0 5px 10px hsl(224, 23%, 70%);
   cursor: pointer;
@@ -99,18 +101,22 @@ button:hover {
 /* Results */
 
 .results {
-  margin: 0.5rem 0 0 0;
+  margin: 0.3rem 0 0 0;
   text-align: center;
   width: 85%;
   border-radius: 15px;
   background-color: rgb(244, 247, 255);
   color: hsl(224, 23%, 55%);
-  padding: 0.75rem 0 1rem 0;
+  padding: 0.5rem 0 0.75rem 0;
 }
 
 .results .bmi {
   color: hsl(223, 47%, 23%);
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+}
+
+.bmi-analysis {
+  font-size: 0.9Rem;
 }
 
 /* Responsive design */
