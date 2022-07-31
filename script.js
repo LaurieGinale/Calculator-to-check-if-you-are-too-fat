@@ -5,11 +5,11 @@ const bmiAnalysis = document.querySelector('.bmi-analysis');
 const form = document.querySelector('form');
 const inputs = document.querySelectorAll('input');
 const bmiData = [
-    {name: "Tu es trop maigre.", color: "red", range: [0, 18.5]},
-    {name: "Tu as une corpulence normale.", color: "green", range: [18.5, 25]},
-    {name: "Tu es en surpoids.", color: "red", range: [25, 30]},
-    {name: "Tu es obèse.", color: "red", range: [30, 35]},
-    {name: "Tu es très obèse.", color: "red", range: 35}
+    {name: "Vous êtes trop maigre.", color: "red", range: [0, 18.5]},
+    {name: "Vous avez une corpulence normale.", color: "green", range: [18.5, 25]},
+    {name: "Vous êtes en surpoids.", color: "red", range: [25, 30]},
+    {name: "Vous êtes obèse.", color: "red", range: [30, 35]},
+    {name: "Vous êtes très obèse.", color: "red", range: 35}
 ];
 
 /* Form submission */
